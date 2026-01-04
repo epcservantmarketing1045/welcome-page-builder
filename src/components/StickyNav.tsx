@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "@/assets/epc-logo.png";
+import logo from "@/assets/epc-logo.jpeg";
 
 const tabs = [
   { id: "home", label: "Home" },

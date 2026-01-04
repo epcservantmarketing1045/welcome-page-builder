@@ -1,4 +1,4 @@
-import logo from "@/assets/epc-logo.png";
+import logo from "@/assets/epc-logo.jpeg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
