@@ -1,3 +1,5 @@
+import { Phone } from "lucide-react";
+
 const CTASection = () => {
   return (
     <section id="results" className="scroll-mt-20 py-5">
@@ -9,6 +11,14 @@ const CTASection = () => {
           <p className="text-muted-foreground max-w-lg mx-auto leading-relaxed">
             Let's build real results together — with purpose, clarity, and strategy that lasts.
           </p>
+          
+          <a
+            href="tel:+17602827559"
+            className="inline-flex items-center gap-3 mt-6 px-8 py-4 rounded-full bg-gold text-primary-foreground font-bold text-lg tracking-wide transition-all hover:scale-105 hover:shadow-[0_10px_30px_hsl(42_52%_54%_/_0.35)]"
+          >
+            <Phone className="w-5 h-5" />
+            (760) 282-7559
+          </a>
           
           <div className="divider" />
           
