@@ -1,4 +1,4 @@
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail, Instagram } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -27,6 +27,16 @@ const CTASection = () => {
             >
               <Mail className="w-5 h-5" />
               Email Us
+            </a>
+            
+            <a
+              href="https://www.instagram.com/epcservantmarkting/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-full border border-gold/50 text-gold font-bold text-lg tracking-wide transition-all hover:scale-105 hover:bg-gold/10 hover:border-gold"
+            >
+              <Instagram className="w-5 h-5" />
+              Instagram
             </a>
           </div>
           
