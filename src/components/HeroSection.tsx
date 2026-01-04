@@ -15,7 +15,7 @@ const HeroSection = () => {
               EPC Servant Marketing
             </h1>
             <p className="text-3xl md:text-5xl font-extrabold mt-3 mb-2">
-              Serve First. <span className="text-gold">Scale Fast.</span>
+              Serve First. <span className="text-gold"> Grow Faster.</span>
             </p>
             <p className="text-muted-foreground text-base tracking-wide">
               Digital Ads • SEO • Website Design
