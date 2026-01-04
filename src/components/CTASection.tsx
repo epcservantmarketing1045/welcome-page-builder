@@ -1,4 +1,4 @@
-import { Phone } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -12,13 +12,23 @@ const CTASection = () => {
             Let's build real results together — with purpose, clarity, and strategy that lasts.
           </p>
           
-          <a
-            href="tel:+17602827559"
-            className="inline-flex items-center gap-3 mt-6 px-8 py-4 rounded-full bg-gold text-primary-foreground font-bold text-lg tracking-wide transition-all hover:scale-105 hover:shadow-[0_10px_30px_hsl(42_52%_54%_/_0.35)]"
-          >
-            <Phone className="w-5 h-5" />
-            (760) 282-7559
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+            <a
+              href="tel:+17602827559"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gold text-primary-foreground font-bold text-lg tracking-wide transition-all hover:scale-105 hover:shadow-[0_10px_30px_hsl(42_52%_54%_/_0.35)]"
+            >
+              <Phone className="w-5 h-5" />
+              (760) 282-7559
+            </a>
+            
+            <a
+              href="mailto:epcservantmarketing1045@gmail.com"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-full border border-gold/50 text-gold font-bold text-lg tracking-wide transition-all hover:scale-105 hover:bg-gold/10 hover:border-gold"
+            >
+              <Mail className="w-5 h-5" />
+              Email Us
+            </a>
+          </div>
           
           <div className="divider" />
           
